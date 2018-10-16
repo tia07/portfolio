@@ -498,6 +498,19 @@ p{
 
 }
 @media(max-width:800px){
+	#particles-js{
+		background: url(pictures/portfoliopic-sky.png);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.quote{
+	background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),
+	url(pictures/cisco.jpeg);
+	background-position: center;
+	background-repeat: none;
+	background-size: cover;
+	}
 	.description{
 	width: 85%;
 
