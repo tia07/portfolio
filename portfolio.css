@@ -210,15 +210,21 @@ p{
 	height: 100%;
 	background:#FC625D;
 }
-.prg60{
+.prg75{
 	width: 75%;
 	height: 100%;
 	background:#FC625D;
 }
 .prg70{
-	width:68%;
+	width:70%;
 	height: 100%;
 	background:#FC625D;
+}
+.prg45{
+	width:45%;
+	height: 100%;
+	background:#FC625D;
+	
 }
 
 /*    ---------------- PORTFOLIO ----------------      */
