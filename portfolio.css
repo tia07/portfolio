@@ -238,24 +238,24 @@ p{
 }
 
 /*    ---------------- PORTFOLIO ----------------      */
-.link{
+.link-to{
 	display: flex;
 
 	justify-content: space-between;
 	padding:15px 0;
 }
-.link span{
+.link-to span{
 	border:1px solid #666666;
 	padding: 5px 10px;
 	
 }
-.link span:hover{
+.link-to span:hover{
 	background:#FC625D;
 	color:white; 
 	border:none;
 	transition: .3s;
 }
-.link span a{
+.link-to span a{
 	color:black;
 }
 
