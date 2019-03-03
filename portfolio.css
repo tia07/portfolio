@@ -9,6 +9,13 @@ body{
 
 
 }
+
+h3{
+	padding: 15px 0;
+	font-weight: bold;
+	color:#FC625D;
+}
+
 a{
 	text-decoration: none;
 }
@@ -59,6 +66,7 @@ a{
 #particles-js ul li a{
 	text-decoration: none;
 	color:white;
+	padding-bottom: 5px;
 	
 }
 .navigation ul li{
@@ -81,7 +89,7 @@ li:nth-child(4){
 /*      ------------ HEADER and SHOWCASE-------------    */
 .logo{
 	font-size: 1.9em;
-	
+	padding: 0px 5px;
 	border:2px solid #FC625D;
 	margin-top: -20px;
 }
@@ -95,6 +103,10 @@ li:nth-child(4){
 	left:50%;
 	transform: translateX(-50%);
 	font-size: 1.1em;
+}
+.navigation a:hover{
+	border-bottom: 2px solid #FC625D;
+	transition: .1s;
 }
 
 .description{
@@ -123,7 +135,7 @@ button{
 	padding: 10px 20px;
 	font-size: 1em;
 	border-radius: 5px;
-	margin: 2px;
+	margin: 5px;
 	background:transparent;
 	border: 1px solid white;
 	cursor: pointer;
@@ -135,6 +147,10 @@ button a{
 .view-port{
 	border:none;
 	background:#FC625D;
+}
+button:hover{
+	transform: scale(1.1,1.1);
+	transition: .5s;
 }
 .front-end{
 	font-size: 1.4em;
@@ -210,128 +226,145 @@ p{
 	height: 100%;
 	background:#FC625D;
 }
-.prg75{
-	width: 75%;
+.prg60{
+	width: 60%;
 	height: 100%;
 	background:#FC625D;
 }
 .prg70{
-	width:70%;
+	width: 70%;
 	height: 100%;
 	background:#FC625D;
-}
-.prg45{
-	width:45%;
-	height: 100%;
-	background:#FC625D;
-	
 }
 
 /*    ---------------- PORTFOLIO ----------------      */
+.link{
+	display: flex;
+
+	justify-content: space-between;
+	padding:15px 0;
+}
+.link span{
+	border:1px solid #666666;
+	padding: 5px 10px;
+	
+}
+.link span:hover{
+	background:#FC625D;
+	color:white; 
+	border:none;
+	transition: .3s;
+}
+.link span a{
+	color:black;
+}
 
 #portfolio-wrap{
 	width:85%;
 	margin:0 auto;
 	margin-top:-15px;
 }
-#portfolio-wrap a{
-	color: white;
-	margin:0 auto;
-	padding: 10px 0;
+.row1{
+	padding-bottom: 20px;
 }
-#portfolio-wrap a:hover{
-	color:#FC625D;
-	border-bottom: 1px solid #FC625D;
 
-}
 .row1, .row2{
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 20px;
 }
 
-.overlay{
-	color: white;
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	justify-content: center;
-	transition:.5s ease;
-	width:97%;
-	height:95%;
-	 top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-	opacity: 0;
-	background:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8));
 
+.pics-wrap{
+	width: 32%;
+	box-shadow: 0 7px 4px #777;
 }
-.overlay h3{
-	padding-bottom: 20px;
+
+.pics-row1{
+	width:100%;
+	height:250px;
+	
+	transition:.5s ease;
 }
+.pic-description{
+	text-align: left;
+	padding:15px;
+}
+
 .pic1{
-	width:38%;
-	height:400px;
+	
+	
 	position: relative;
 	background:url(pictures/puppyWebsite.png);
 	background-position: center top;
 	background-size: cover;
 	background-repeat:no-repeat;
-	box-shadow: 0 7px 4px #777;
-	transition:.5s ease;
+	
 	
 }
-.pic1:hover .overlay{
-	opacity: 1;
-}
 
-.pic2{
-	width:60%;
-	height:400px;
+
+.pic6{
+	
+	
 	position: relative;
 	background:url(pictures/flowerWebsite.jpg);
 	
 	background-position: center top;
 	background-size: cover;
 	background-repeat:no-repeat;
-	box-shadow: 0 7px 4px #777;
-	transition:.5s ease;
-}
-.pic2:hover .overlay{
-	opacity:1;
+	
 }
 
 
-.pic3{
-	width:60%;
-	height:400px;
+
+.pic5{
+	
+	
 	position: relative;
 	background:url(pictures/weightConverter.jpg);
 
 	background-position:center top;
 	background-size:cover;
 	background-repeat: no-repeat;
-	box-shadow: 0 7px 4px #777;
-	transition:.5s ease;
+	
 }
-.pic3:hover .overlay{
-	opacity:1;
-}
-.pic4{
-	width:38%;
-	height:400px;
+
+.pic2{
+	
+	
 	position: relative;
 	background:url(pictures/donutShopWebsite.jpg);
 	background-position: center top;
 	background-size: cover;
 	background-repeat:no-repeat;
-	box-shadow: 0 7px 4px #777;
-	transition:.5s ease;
+	
 }
-.pic4:hover .overlay{
-	opacity:1;
+
+
+.pic4{
+	
+	
+	position: relative;
+	background:url(pictures/weatherApp.jpg);
+	background-position: center top;
+	background-size: cover;
+	background-repeat:no-repeat;
+	
 }
+
+
+.pic3{
+	
+
+	position: relative;
+	background:url(pictures/dogWalker.jpg);
+	background-position: center top;
+	background-size: cover;
+	background-repeat:no-repeat;
+	
+}
+
 
 .title{
 	text-shadow: -2px 2px 5px #C0C0C0;
@@ -516,7 +549,7 @@ p{
 	background-position: center;
 	background-repeat: none;
 	background-size: cover;
-	}
+	}	
 	.description{
 	width: 85%;
 
@@ -559,7 +592,7 @@ p{
 	.row1, .row2{
 		flex-direction: column;
 	}
-	.pic1, .pic2, .pic3, .pic4{
+	.pics-wrap{
 		width: 100%;
 		margin-bottom: 60px;
 	}
