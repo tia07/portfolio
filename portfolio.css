@@ -273,9 +273,14 @@ p{
 	padding-bottom: 20px;
 }
 
-.row1, .row2{
+.row1{
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.row2{
+	display: flex;
+	
 	margin-bottom: 20px;
 }
 
@@ -333,6 +338,9 @@ p{
 	background-size:cover;
 	background-repeat: no-repeat;
 	
+}
+#weight-conv{
+	margin-right:2%;
 }
 
 .pic2{
