@@ -226,13 +226,18 @@ p{
 	height: 100%;
 	background:#FC625D;
 }
-.prg60{
-	width: 70%;
+.prg75{
+	width: 75%;
 	height: 100%;
 	background:#FC625D;
 }
-.prg70{
+.prg60{
 	width: 60%;
+	height: 100%;
+	background:#FC625D;
+}
+.prg65{
+	width: 65%;
 	height: 100%;
 	background:#FC625D;
 }
