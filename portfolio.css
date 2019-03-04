@@ -1,4 +1,4 @@
- *{
+*{
 	margin:0px;
 	padding:0px;
 }
@@ -280,9 +280,10 @@ p{
 }
 .row2{
 	display: flex;
-	
 	margin-bottom: 20px;
+
 }
+
 
 
 .pics-wrap{
@@ -529,6 +530,7 @@ p{
 	background:#404040;
 	color: white;
 }
+
 
 /*media query */
 
